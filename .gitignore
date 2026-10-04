@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+build-*/
+cmake-build-*/
+out/
+.cache
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled
+*.o
+*.so
+*.a
+*.dylib
+
+# OS
+.DS_Store
+Thumbs.db
