@@ -40,4 +40,4 @@ ctest --test-dir build
 
 | Header                    | Provides                                 |
 | ------------------------- | ---------------------------------------- |
-| `<rul/vector_utils.hpp>`  | `rul::vector::Matrix<T>` — dense 2D matrix |
+| `<rul/matrix.hpp>`  | `rul::collections::matrix::Matrix<T>` — dense 2D matrix |

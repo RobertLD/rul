@@ -1,8 +1,7 @@
-#include <rul/vector_utils.hpp>
-
 #include <gtest/gtest.h>
+#include <rul/matrix.hpp>
 
-namespace rul::vector {
+namespace rul::collections::matrix {
 
 TEST(MatrixTest, ReportsDimensions) {
     Matrix<int> mat(2, 3);
@@ -72,4 +71,4 @@ TEST(MatrixTest, ZeroIsAllZeros) {
     }
 }
 
-} // namespace rul::vector
+} // namespace rul::collections::matrix
